@@ -1,0 +1,61 @@
+.promo
+  font-family: sans-serif
+  display: flex
+  flex-direction: column
+  align-items: center
+  &-shadow
+    position: absolute
+    background-color: black
+    display: flex
+    width: 1200px
+    height: 680px
+    z-index: -1
+    opacity: 0.1
+  &-video
+    position: fixed
+    z-index: -9999
+    left: 0
+    top: 0
+    min-width: 100%
+    min-height: 100%
+    width: auto
+    height: auto
+  &-head
+    text-transform: uppercase
+    color: white
+    font-weight: bold
+    font-size: 25px
+    position: fixed
+    background-color: $purple
+    display: flex
+    justify-content: center
+    width: 100%
+    padding: 25px
+  &-info
+    margin-top: 150px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 1200px
+  &-photo
+    &__img
+      object-fit: cover
+  &-caracter
+    color: $white
+    text-transform: uppercase
+    font-size: 20px
+    &__item
+      margin-top: 100px
+  &-btn
+    margin-top: 50px
+    padding: 30px
+    border: none
+    cursor: pointer
+    font-family: sans-serif
+    text-transform: uppercase
+    font-size: 20px
+    font-weight: bold
+    background-color: $green
+    color: $white
+    border-radius: 15px
+    width: 500px
