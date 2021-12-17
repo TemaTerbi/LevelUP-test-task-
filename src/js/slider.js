@@ -17,3 +17,22 @@ const swiper = new Swiper('.swiper', {
   cardsEffect: {
   },
 });
+
+
+(function(){
+  var text = document.getElementById("my_text"),
+      testText;
+      text.onkeyup          =  function testKey(){
+         var testText       =  text.value;
+          if(testText*1 + 0  !=  text.value){
+            text.value      = testText.substring(0, testText.length - 1) 
+            
+          }
+    
+    
+    
+    
+      }
+
+
+})()

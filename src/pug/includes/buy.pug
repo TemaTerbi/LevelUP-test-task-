@@ -1,0 +1,19 @@
+section(id="buy").buy 
+  .container 
+    .buy-block 
+      .buy-name LevelUP
+      .buy-offer Доконца акции осталось:
+      .buy-timer
+        span.buy-timer__time(id="countdown") 00:03
+        span.buy-timer__seconds(id="second") 
+      .buy-wrapper 
+        img(src="../img/prod.png", alt="photo of products" class="buy-photo")
+        .buy-price
+          .buy-pricewrap
+            span.buy-price__old 6500
+            span.buy-price__new 3500
+          form(class="buy-form")
+            input(type="text" class="buy-form__in" placeholder="Ваше имя:")
+            input(type="telephone" class="buy-form__in" id="my_text" placeholder="Телефон:")
+            a(href="#buy")  
+              button(class="promo-btn") Заказать
