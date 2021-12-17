@@ -87,7 +87,7 @@
 }
 
 .promo-btn {
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 30px;
   border: none;
   cursor: pointer;
@@ -98,7 +98,7 @@
   background-color: #ff9900;
   color: #ffffff;
   border-radius: 15px;
-  width: 500px;
+  width: 550px;
   -webkit-transition: 0.30s;
   transition: 0.30s;
 }
@@ -268,7 +268,61 @@ body {
 .slider {
   height: 730px;
   padding: 100px;
+  padding-top: 250px;
   background-color: #ffffff67;
+}
+
+.promopeople {
+  background-color: #141414;
+}
+
+.promopeople-block {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promopeople-info {
+  margin-left: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.promopeople-info__name {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.promopeople-li {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
