@@ -435,6 +435,38 @@ body {
           flex-direction: column;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .promo-info {
+    width: 1024px;
+  }
+  .promo-shadow {
+    width: 1024px;
+  }
+  .promo-head {
+    width: 1024px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .promo-video {
+    min-width: 600px !important;
+  }
+  .swiper {
+    width: 800px;
+  }
+  .promopeople-block__photo {
+    margin-bottom: 200px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 200px;
+  }
+  .buy-price {
+    margin-left: 100px;
+  }
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
