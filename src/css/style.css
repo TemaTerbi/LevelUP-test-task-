@@ -450,9 +450,6 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
-  .promo-video {
-    min-width: 600px !important;
-  }
   .swiper {
     width: 800px;
   }
@@ -464,6 +461,9 @@ body {
   }
   .buy-price {
     margin-left: 100px;
+  }
+  body {
+    width: 1024px !important;
   }
 }
 
